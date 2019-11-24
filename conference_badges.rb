@@ -18,5 +18,6 @@ end
 
 
 def printer
-  
+  puts batch_badge_creator(badges)
+  puts assign_rooms(speakers)
 end  
