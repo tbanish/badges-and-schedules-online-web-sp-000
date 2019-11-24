@@ -11,8 +11,7 @@ end
   
 
 def assign_rooms(speakers)
-  
-  puts "Hello, #{name}!  You'll be assigned to room #{room_num}!"
+  speakers.each_with_index.map 
 end
 
 
