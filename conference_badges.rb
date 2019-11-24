@@ -6,7 +6,7 @@ end
 
 
 def batch_badge_creator(badges)
-  badges.each {puts "Hello, my name is #{name}."
+  badges.each {puts "Hello, my name is #{name}."}
 end
   
 
