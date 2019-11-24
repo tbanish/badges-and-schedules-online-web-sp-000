@@ -6,12 +6,9 @@ end
 
 
 def batch_badge_creator(badges)
-  
+  badges.each {puts "Hello, my name is #{name}."
 end
   
-  
-    
-
 
 def assign_rooms(speakers)
   puts "Hello, #{name}!  You'll be assigned to room #{room_num}!"
