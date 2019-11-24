@@ -22,4 +22,8 @@ def printer(speakers)
     puts badge
   assign_rooms(speakers).each do |room|
     puts room
+  end
 end  
+
+
+
