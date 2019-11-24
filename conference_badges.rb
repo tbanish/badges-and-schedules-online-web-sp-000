@@ -6,7 +6,7 @@ end
 
 
 def batch_badge_creator(speakers)
-  puts "Hello, my name is #{speakers}."
+  
 end
 
 
