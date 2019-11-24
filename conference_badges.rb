@@ -6,7 +6,7 @@ end
 
 
 def batch_badge_creator(speakers)
-  speakers.each {|name| return "Hello, my name is #{name}."}
+  speakers.each {|name| puts "Hello, my name is #{name}."}
 end
 
 
