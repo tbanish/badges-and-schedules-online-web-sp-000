@@ -10,7 +10,8 @@ end
 
 
 def badge_maker(name)
-  puts "Hello, my name is #{name}."
+  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  speakers.each{|name| puts "Hello, my name is #{name}."}
 end
 
 def printer
