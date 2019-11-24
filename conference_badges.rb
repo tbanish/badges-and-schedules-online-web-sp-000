@@ -6,12 +6,10 @@ end
 
 
 def batch_badge_creator(speakers)
-  speakers.each do |name|
-    7.times do
-      puts "Hello, my name is #{name}."
-    end
-  end
+  badge = []
+  speakers.each {|name| badge << "Hello, my name is #{name}."
 end
+    
 
 
 def assign_rooms(speakers)
