@@ -7,7 +7,10 @@ end
 
 def batch_badge_creator(speakers)
   speakers.each do |name|
-    
+    7.times do
+      puts "Hello, my name is #{name}."
+    end
+  end
 end
 
 
