@@ -12,7 +12,7 @@ end
 
 def assign_rooms(speakers)
   speakers.each_with_index.map do |name, room_num|
-    "Hello #{name}! You'll be assigned to room #{room_num + 1}!"
+    "Hello, #{name}! You'll be assigned to room #{room_num + 1}!"
   end
 end
 
